@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery's page</title>
+
+    <link rel="stylesheet" href="C:\Users\pc\Repo13-14\ex01\styles\index.css">
+    <link rel="stylesheet" href="C:\Users\pc\Repo13-14\ex01\images">
+    <link rel="stylesheet" href="C:\Users\pc\Repo13-14\ex01\scripts\index.js">
+</head>
+
+
+<body>
+
+
+    <nav id="main">
+        <a href="C:\Users\pc\Repo13-14\ex01\images" class="modal"></a>
+    </nav>
+
+    <div class="portfolio">
+
+        <div class="portfolio-item small" class="myImg">
+            <a href="C:\Users\pc\Repo13-14\ex01\src\image01.html">
+                <span title="Marathon">
+                    <img title="Marathon" alt="Marathon" src="C:\Users\pc\Repo13-14\ex01\images\img1.jpg" width="200"
+                        onclick="openModal();currentSlide(q)" class="hover-shadow cursor">
+                </span>
+            </a>
+        </div>
+        <div class="portfolio-item small" class="myImg">
+            <a href="C:\Users\pc\Repo13-14\ex01\src\image02.html">
+                <img title="Gymnastics" alt="Gymnastics" src="C:\Users\pc\Repo13-14\ex01\images\img2.jpg" width="200"
+                    onclick="openModal();currentSlide(q)" class="hover-shadow cursor">
+            </a>
+        </div>
+        <div class="portfolio-item small" class="myImg">
+            <a href="C:\Users\pc\Repo13-14\ex01\src\image03.html">
+                <img title="Climbing" alt="Climbing" src="C:\Users\pc\Repo13-14\ex01\images\img3.jpg" width="200"
+                    onclick="openModal();currentSlide(q)" class="hover-shadow cursor">
+            </a>
+        </div>
+        <div class="portfolio-item large" class="myImg">
+            <a href="C:\Users\pc\Repo13-14\ex01\src\image04.html">
+                <img title="Skiing" alt="Skiing" src="C:\Users\pc\Repo13-14\ex01\images\img4.jpg" width="200"
+                    onclick="openModal();currentSlide(q)" class="hover-shadow cursor">
+            </a>
+        </div>
+        <div class="portfolio-item small" class="myImg">
+            <a href="C:\Users\pc\Repo13-14\ex01\src\image05.html">
+                <img title="Weight Lifting" alt="Weights Lifting" src="C:\Users\pc\Repo13-14\ex01\images\img5.jpg"
+                    width="200" onclick="openModal();currentSlide(q)" class="hover-shadow cursor">
+            </a>
+        </div>
+        <div class="portfolio-item large" class="myImg">
+            <a href="C:\Users\pc\Repo13-14\ex01\src\image06.html">
+                <img title="Basketball" alt="Basketball" src="C:\Users\pc\Repo13-14\ex01\images\img6.jpg" width="200"
+                    onclick="openModal();currentSlide(q)" class="hover-shadow cursor">
+            </a>
+        </div>
+        <div class="portfolio-item small" class="myImg">
+            <a href="C:\Users\pc\Repo13-14\ex01\src\image07.html">
+                <img title="Swimming" alt="Swimming" src="C:\Users\pc\Repo13-14\ex01\images\img7.jpg" width="200"
+                    onclick="openModal();currentSlide(q)" class="hover-shadow cursor">
+            </a>
+        </div>
+        <div class="portfolio-item medium" class="myImg">
+            <a href="C:\Users\pc\Repo13-14\ex01\src\image08.html">
+                <img title="Jogging" alt="Jogging" src="C:\Users\pc\Repo13-14\ex01\images\img8.jpg" width="200"
+                    onclick="openModal();currentSlide(q)" class="hover-shadow cursor">
+            </a>
+        </div>
+        <div class="portfolio-item large" class="myImg">
+            <a href="C:\Users\pc\Repo13-14\ex01\src\image09.html">
+                <img title="Running" alt="Running" src="C:\Users\pc\Repo13-14\ex01\images\img9.jpg" width="200"
+                    onclick="openModal();currentSlide(q)" class="hover-shadow cursor">
+            </a>
+        </div>
+        <div class="portfolio-item medium" class="myImg">
+            <a href="C:\Users\pc\Repo13-14\ex01\src\image10.html">
+                <img title="Cycling" alt="Cycling" src="C:\Users\pc\Repo13-14\ex01\images\img10.jpg" width="200"
+                    onclick="openModal();currentSlide(q)" class="hover-shadow cursor">
+            </a>
+        </div>
+
+    </div>
+
+    <div>
+        <!-- Trigger/Open The Modal -->
+
+        <a href="C:\Users\pc\Repo13-14\ex01\images">
+            <button id="myBtn">Open Modal</button>
+        </a>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal"></div>
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Gallery's page</p>
+        </div>
+
+    </div>
+    </div>
+
+
+</body>
+
+</html>

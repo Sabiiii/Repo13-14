@@ -1,0 +1,289 @@
+body {
+  background-color: white;
+}
+
+div .modal {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  text-align: center;
+}
+
+a:hover + div {
+    display: block;
+
+}
+
+hover-shadow.cursor:hover {
+    opacity: 0.5;
+    color: black;
+}
+
+.portfolio {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20px;
+  padding-block: 0;
+  min-height: 100vh;
+  flex: 1 1 60%;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  color: black
+}
+
+
+.portfolio-item.medium {
+  grid-row: span 2;
+  grid-column: span 1;
+}
+
+.portfolio-item.large {
+  grid-row: span 3;
+  grid-column: span 1;
+}
+
+.portfolio-item.small {
+  grid-row: span 1;
+  grid-column: span 1;
+}
+
+.portfolio-item.small:hover {
+  opacity: 0.5;
+  color: black;
+}
+
+.portfolio-item.medium:hover {
+  opacity: 0.5;
+  color: black;
+}
+
+.portfolio-item.large:hover {
+  opacity: 0.5;
+  color: black;
+}
+
+
+.shadow {
+  opacity: 0.5;
+  color: black;
+}
+
+.title {
+  width: 50%;
+  height: 50%;
+}
+
+section {
+  width: 500px;
+  height: 500px;
+  overflow-wrap: normal;
+  position: relative;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text1 {
+  z-index: 1;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 190px;
+  position: relative;
+  margin-top: -7%;
+  text-align: justify;
+  text-indent: 7%;
+  font-weight: normal;
+}
+
+.text2 {
+  z-index: 1;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 190px;
+  position: relative;
+  margin-top: -5%;
+  text-align: justify;
+  text-indent: -1%;
+  font-weight: normal;
+}
+
+.text3 {
+  z-index: 1;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 190px;
+  position: relative;
+  margin-top: -4%;
+  text-align: justify;
+  text-indent: 7%;
+  font-weight: normal;
+}
+
+.text4 {
+  z-index: 1;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 190px;
+  position: relative;
+  margin-top: 85%;
+  text-align: justify;
+  text-indent: 12%;
+  font-weight: normal;
+}
+
+.text5 {
+  z-index: 1;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 130px;
+  position: relative;
+  margin-top: 3%;
+  text-align: justify;
+  text-indent: 7%;
+  font-weight: normal;
+}
+
+.text6 {
+  z-index: 1;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 190px;
+  position: relative;
+  margin-top: 63%;
+  text-align: justify;
+  text-indent: 3%;
+  font-weight: normal;
+}
+
+.text7 {
+  z-index: 1;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 190px;
+  position: relative;
+  margin-top: -5%;
+  text-align: justify;
+  text-indent: 3%;
+  font-weight: normal;
+}
+
+.text8 {
+  z-index: 1;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 190px;
+  position: relative;
+  margin-top: 45%;
+  text-align: justify;
+  text-indent: 7%;
+  font-weight: normal;
+}
+
+.text9 {
+  z-index: 1;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 190px;
+  position: relative;
+  margin-top: 65%;
+  text-align: justify;
+  text-indent: 7%;
+  font-weight: normal;
+}
+
+.text10 {
+  z-index: 1;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 190px;
+  position: relative;
+  margin-top: 50%;
+  text-align: justify;
+  text-indent: 13%;
+  font-weight: normal;
+  
+}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {
+  opacity: 0.5;
+  color: black;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: black; /* Fallback color */
+  background-color: black; /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid  lightgray;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: lightslategrey;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: lightgray;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+​
+
